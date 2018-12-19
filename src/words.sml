@@ -64,5 +64,5 @@ fun run (n,f) =
 
 val () =
     case CommandLine.arguments() of
-        [f] => run (1,f)
+        [f] => run (20,f)
       | _ => print ("Usage: " ^ name ^ " file\n")
